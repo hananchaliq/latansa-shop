@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Detail Produk</title>
+      <link rel="shortcut icon" href="src/img/icon.png" type="image/x-icon">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <style>
+         @font-face {
+            font-family: "Poppins";
+            src: url(src/font/Poppins-Regular.ttf);
+         }
+         body {
+            font-family: "Poppins";
+         }
+      </style>
+   </head>
+   <body class="bg-gray-100">
+      <header class="bg-green-500 text-white py-4 mb-6">
+         <nav class="w-11/12 mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-semibold"><i class="fa-solid fa-store"></i> Latansa Shop</h1>
+            <ul class="flex gap-5">
+               <li><a href="index.html" class="hover:underline">Beranda</a></li>
+               <li><a href="produk.html" class="hover:underline">Produk</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <section class="w-11/12 mx-auto">
+         <h2 class="text-2xl font-bold mb-5">Detail Produk</h2>
+
+         <div id="detail-produk" class="bg-white p-6 rounded-xl shadow flex"></div>
+      </section>
+
+      <script src="js/data.js"></script>
+      <script src="js/detail.js"></script>
+
+      <footer class="mt-10 text-center text-gray-600 py-5">© 2025 Latansa Shop.</footer>
+   </body>
+</html>
